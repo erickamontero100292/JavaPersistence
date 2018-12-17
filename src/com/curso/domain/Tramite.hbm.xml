@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="com.curso.domain">
+
+<class name="Tramite" table="Tramite">
+
+<id name="idTram" column="idTram">
+<generator class="native"></generator> <!-- Se va a generar solo el id -->
+</id>
+<property name="tipoTram" type="string" column="tipoTram"></property>
+<property name="fhcTram" type="timestamp" column="fhcTram"></property>
+
+</class>
+
+</hibernate-mapping>
